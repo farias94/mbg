@@ -1,0 +1,78 @@
+
+    .logoContainer{
+      display: flex;
+      flex-direction: row;
+      background-color: #2a2931;
+      align-items: center;
+align-content: center;
+align-items: center;
+justify-items: center;
+width: 33vw;
+padding: 0px;
+margin: 0px;
+
+
+    }
+
+ 
+     
+    .nav {
+      justify-content: space-between;
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+padding: 0px;
+margin:0px;
+flex-direction: row;
+    }
+
+    @media (width< 800px){
+      .nav{
+        display: flex;
+        flex-direction: column;
+      }
+      
+      .logoContainer{
+        width: 100vw;
+        justify-content: center;
+      };
+
+    }
+    .nav h1{
+        font-size: clamp(.8rem,1vw,1.5rem)
+    }
+    .logo {
+      align-items:first baseline
+    
+  }
+
+
+
+  .logo img{
+    width: clamp(50%, 3vw,100%);
+   
+    box-sizing: border-box;
+  }
+
+
+
+.Home {
+  font-weight: bold;
+text-decoration: none;
+color: white;
+
+}
+
+    .marcus{
+      font-size: clamp(1rem,1vw,1.5rem);
+      text-decoration: none;
+      color: white;
+    }
+
+  .navLinkContainer{
+    padding-right: 2em;
+    flex-direction: row;
+    display: flex;
+    align-items: flex-end;
+  }
+   

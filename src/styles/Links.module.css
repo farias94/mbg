@@ -1,0 +1,17 @@
+.LinksStyled{
+    list-style: none;
+    text-decoration: none;
+    color:  #eeede9;
+    font-family: Arial, Helvetica, sans-serif
+}
+.linksContainer{
+    padding-left: 50%;
+}
+.LinksStyled a{
+
+}
+.footerLink{
+    font-size: 1min;
+    text-decoration: none;
+    color: white;
+}

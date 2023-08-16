@@ -1,0 +1,14 @@
+.container{
+width: 100vw;
+margin: 0px;
+padding: 0px;
+height: 100vh;
+background-color: orange;
+background-blend-mode: hard-light;  
+  background-image: url('../../public/DIYHero.jpg');
+}
+.container h1{
+    color: white;
+    font-size: 4rem;
+    align-self: center;
+}

@@ -1,0 +1,41 @@
+.Hero{
+min-height: 70vh;   
+ background-origin: border-box;
+ background-image: url('../../public/HeroImage.jpg'), linear-gradient(#d43131d2, #9198e5c4);
+    background-size: cover;
+    background-position: absolute, relative;
+    width: 100vw;
+    background-repeat: no-repeat;
+    font-family: 'Work-Sans';
+
+  padding-bottom: clamp(1em, 5vh, 20vh);
+filter: grayscale(80%), hue-rotate(30%);
+display: flex;
+flex-direction: column;
+align-content: flex-end;
+}
+.HeroText{
+    
+    font-family: 'Work-Sans';
+   margin: 0px;
+  padding-left: clamp(1rem, 3vw + 5px, 6rem);
+  padding-top: 10rem;
+  color: rgb(255, 255, 255);
+  line-break: auto;
+  letter-spacing: 1px;
+font-size: clamp(3rem , 6vw + 10px, 10rem); 
+
+}
+
+ .HeroText h1{
+ width: 80%;
+
+ }
+
+ @media (width<900px){
+    .Hero{
+        height: auto;
+    }
+ }
+
+ 

@@ -1,0 +1,19 @@
+.form1{
+    background-color: blue;
+}
+.inputForm1{
+    background-color: antiquewhite;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+}
+
+.largeInput{
+    padding-top: 1rem;
+    width: 80%;
+    height: 200px;
+    padding-bottom: 20px;
+}

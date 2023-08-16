@@ -1,0 +1,113 @@
+
+
+  .linksMobileOpen {
+      align-content: center;
+    text-decoration: none;
+  display: flex;
+  
+  visibility: visible;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration-style: none;
+  background-color: rgba(128, 128, 128, 0.3);
+
+}
+.linksMobileOpen a{
+visibility: none;
+  opacity: 100; 
+   padding-top: 1em;
+   padding-left: 5em;
+   box-shadow: 10px 5px 5px grey;
+
+   padding-bottom: .5em;
+  font-size: .8rem;
+  color: rgb(35, 35, 35);
+  background-color: rgb(223, 220, 220);
+  background-image: linear-gradient(35ß);
+  text-decoration: none;
+  color: rgb(75, 74, 74);
+  transition-property: all;
+  transition-duration: .5s;
+height: 100%;
+}
+
+
+
+
+.linksMobileClosed a{
+  position: absolute;
+  box-sizing: border-box;
+  transition-property: visibility;
+  transition-duration: .5s;
+  opacity: 0;
+  height: 0%;
+  padding: 1px;
+  overflow: hidden;
+
+}
+.menuButtonMobile{
+  box-shadow: 10px 5px 5px grey;
+  font-size: 1rem;
+  background-color: rgb(32, 32, 32);
+  font-family:sans-serif;
+  padding: 1rem 0px 1rem 0px ;
+  align-self: center;
+  height: auto;
+  color: white;
+width: 100vw;
+  text-align: center;
+  justify-content: center;
+  margin:0px;
+}
+
+.menuButtonMobile p{
+  padding: .5rem;
+}
+.menuButtonMobile span{
+  background-color: black;
+  width: 30%;
+  padding-top: 2em;
+
+}
+.linksMobileClosed{
+  height: 0%;
+  box-shadow: 10px 5px 5px grey;
+
+ box-sizing: border-box;
+ overflow: hidden;
+ position: relative;
+ transition-property: visibility;
+ transition-duration: .4s;
+  transition-property: all;
+  opacity: 0;
+  background-color: orange;
+ 
+  
+}
+.linksDesktop{
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  display: flex;
+justify-self: flex-end;  
+flex-direction: row;
+}
+.linksDesktop a {
+  font-weight: lighter;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  color: black;
+  flex-wrap: wrap;
+  padding-right: 1rem;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
+  text-decoration: none;
+}
+
+  .linksDesktop a:hover{
+    text-decoration: underline 2px solid black;
+  }
+

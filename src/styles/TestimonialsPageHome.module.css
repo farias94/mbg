@@ -1,0 +1,18 @@
+.container{
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: rgb(232, 220, 220 0.5);
+    padding: 5rem;
+    background-blend-mode: soft-light;
+    background-image: url('../../public/Meeting-100.jpg');
+    background-size: cover;
+}
+
+.Header{
+    font-size: 2rem;
+}

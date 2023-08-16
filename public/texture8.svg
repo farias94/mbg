@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 557.5252 557.5252">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-2 {
+        stroke-width: 9.4px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: .7px;
+      }
+
+      .cls-4 {
+        stroke-width: 7.7px;
+      }
+
+      .cls-5 {
+        stroke-width: 5.2px;
+      }
+
+      .cls-6 {
+        stroke-width: 3.3px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="557.5252" height="557.5252"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g class="cls-7">
+      <g id="Layer_1-2" data-name="Layer 1-2">
+        <polyline class="cls-3" points="219.3661 153.9565 219.3661 79.8456 108.4798 0 -2.4065 79.8456 -2.4065 153.9565"/>
+        <polyline class="cls-3" points="441.1387 153.9565 441.1387 79.8456 330.2524 0 219.3661 79.8456 219.3661 153.9565"/>
+      </g>
+      <g id="Layer_1-2-2" data-name="Layer 1-2">
+        <polyline class="cls-2" points="662.9112 153.9565 662.9112 79.8456 552.025 0 441.1387 79.8456 441.1387 153.9565"/>
+      </g>
+      <g id="Layer_1-2-3" data-name="Layer 1-2">
+        <polyline class="cls-5" points="102.9796 310.9082 102.9796 236.7973 -7.9067 156.9517 -118.793 236.7973 -118.793 310.9082"/>
+        <polyline class="cls-5" points="324.7522 310.9082 324.7522 236.7973 213.8659 156.9517 102.9796 236.7973 102.9796 310.9082"/>
+      </g>
+      <g id="Layer_1-2-4" data-name="Layer 1-2">
+        <polyline class="cls-4" points="546.5247 310.9082 546.5247 236.7973 435.6385 156.9517 324.7522 236.7973 324.7522 310.9082"/>
+        <polyline class="cls-4" points="768.2973 310.9082 768.2973 236.7973 657.411 156.9517 546.5247 236.7973 546.5247 310.9082"/>
+      </g>
+      <g id="Layer_1-2-5" data-name="Layer 1-2">
+        <polyline class="cls-6" points="224.8663 413.4997 224.8663 339.3888 113.98 259.5432 3.0938 339.3888 3.0938 413.4997"/>
+        <polyline class="cls-6" points="446.6389 413.4997 446.6389 339.3888 335.7526 259.5432 224.8663 339.3888 224.8663 413.4997"/>
+      </g>
+    </g>
+  </g>
+</svg>

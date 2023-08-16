@@ -1,0 +1,13 @@
+.footerLogo{
+    width: 3rem;
+}
+
+.footerContainer{
+    padding-left: 10%;
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: #353636;
+    color: whitesmoke;
+    
+}
