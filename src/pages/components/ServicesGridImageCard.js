@@ -1,5 +1,5 @@
 import react from "react";
-import { servicesImageData } from "./servicesImageData";
+import { servicesImageData } from "../../../public/servicesImageData";
 import styles from '../../styles/ServicesGridImageCard.module.css'
 import Image from "next/image";
 const ServicesGridImageCard=()=>{

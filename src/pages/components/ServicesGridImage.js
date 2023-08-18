@@ -1,6 +1,6 @@
 import react, { useState } from "react";
 import Image from "next/image";
-import { servicesImageData } from "../components/servicesImageData";
+import { servicesImageData } from "../../../public/servicesImageData";
 import { useEffect } from "react";
 import styles from '../../styles/ServicesGridImage.module.css'
 

@@ -1,5 +1,5 @@
 import react from "react";
-import { testimonialData } from "../components/testimonialDataComp";
+import { testimonialData } from "../../../public/testimonialDataComp";
 import Testimonials from "../components/Testimonials";
 import styles from '../../styles/TestimonialsContainer.module.css'
 import Button from "../components/Button";

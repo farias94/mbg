@@ -1,5 +1,5 @@
 import react from "react";
-import { servicesImageData } from "./servicesImageData";
+import { servicesImageData } from "../../../public/servicesImageData";
 import Image from "next/image";
 import ServicesGridImage from "./ServicesGridImage";
 const ServicesGridContainer =({url, name, id, alt} )=>{

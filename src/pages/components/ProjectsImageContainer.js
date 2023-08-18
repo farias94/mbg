@@ -6,7 +6,7 @@ import Services1 from '../../../public/Services1.jpg'
 import Services2 from '../../../public/Services2.jpg'
 import Services3 from '../../../public/Services3.jpg'
 import Services4 from '../../../public/Services4.jpg'
-import { projectData }  from './projectDesc';
+import { projectData }  from '../../../public/projectDesc';
 
 const ProjectsImageContainer = ({...projectDesc}) => {
 

@@ -1,5 +1,5 @@
 import react from "react";
-import { testimonialData } from "../components/testimonialDataComp";
+import { testimonialData } from "../../../public/testimonialDataComp";
 import styles from '../../styles/TestimonialsPageCard.module.css'
 const TestimonialsPageCard=({author, text})=>{
     const randomer = Math.random() * Math.floor(2);

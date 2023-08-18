@@ -2,7 +2,7 @@ import react from "react";
 import MeetingImg from '../../../public/Meeting-100.jpg'
 import styles from '../../styles/TestimonialsPageHome.module.css'
 import Navbar from "../components/Navbar";
-import { testimonialData } from "./testimonialDataComp";
+import { testimonialData } from "../../../public/testimonialDataComp";
 import TestimonialsPageCard from "./TestimonialsPageCard";
 import ContactSection from "./ContactSection";
 import ContactUsForm from "./ContactUsForm";

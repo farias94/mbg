@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../styles/Projects.module.css';
 import ProjectImageContainer from '../components/ProjectsImageContainer'
-import { projectData } from '../components/projectDesc';
+import { projectData } from '../../../public/projectDesc';
 import ContactUsForm from '../components/ContactUsForm';
 import Button from '../components/Button';
 

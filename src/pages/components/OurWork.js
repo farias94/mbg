@@ -1,7 +1,7 @@
 import react from "react";
 import styles from '../../styles/OurWork.module.css'
 import TestimonialsContainer from "../components/TestimonialsContainer";
-import { testimonialData } from '../components/testimonialDataComp'
+import { testimonialData } from '../../../public/testimonialDataComp'
 import OurWorkProjects from "./OurWorkProjects";
 const WorkSection =()=>{
 return(
