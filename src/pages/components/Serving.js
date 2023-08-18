@@ -10,7 +10,7 @@ function Serving(){
 
 <p>
 Marcus Building Group has been in business for over
-24 years. <br/>We've been helping North Jersey residents renovate the home of their dreams.
+24 years. <br/>Weve been helping North Jersey residents renovate the home of their dreams.
 </p>
 </div>
 </div>
