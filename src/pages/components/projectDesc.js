@@ -1,4 +1,3 @@
-import { image } from "d3";
 import react from "react";
 
 export const projectData=[

@@ -3,7 +3,6 @@ import Link from "next/link";
 import { linkList } from "../components/LinkList";
 import styles from '../../styles/Links.module.css'
 import stylesFooter from '../../styles/Footer.module.css'
-import { link } from "d3";
 const Links =()=>{
     return(
         <div className={styles.linksContainer}>
