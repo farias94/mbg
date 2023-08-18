@@ -1,6 +1,6 @@
 import react from "react";
 import Link from "next/link";
-import { linkList } from "../components/LinkList";
+import { linkList } from "../../../public/LinkList";
 import styles from '../../styles/Links.module.css'
 import stylesFooter from '../../styles/Footer.module.css'
 const Links =()=>{
