@@ -7,7 +7,7 @@ const Links =()=>{
     return(
         <div className={styles.linksContainer}>
 {console.log(linkList)}
-{linkList.map(({url,id,linkName, className}) => (
+{linkList.map(({url,id, linkName }) => (
 
 <Link href={url} className={styles.footerLink}key={id}><p className={styles.footerLink} >{linkName}</p></Link> ))}
 </div>
