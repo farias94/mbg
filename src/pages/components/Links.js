@@ -9,7 +9,7 @@ const Links =()=>{
 {console.log(linkList)}
 {linkList.map(({url,id, linkName }) => (
 
-<Link href={url} className={styles.footerLink}key={id}><p className={styles.footerLink} >{linkName}</p></Link> ))}
+<Link href='/' className={styles.footerLink}key={id}><p className={styles.footerLink} >{linkName}</p></Link> ))}
 </div>
     )
 
