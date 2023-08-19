@@ -2,7 +2,7 @@ import react from "react";
 import { servicesImageData } from "../../../public/servicesImageData";
 import styles from '../../styles/ServicesGridImageCard.module.css'
 import Image from "next/image";
-const ServicesGridImageCard=()=>{
+const ServicesGridImageCard=(prop)=>{
 
     return(
         <div className={styles.container}>

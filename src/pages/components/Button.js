@@ -18,7 +18,7 @@ router.push(path)
   return (
     <div className={styles.ProjectsButton}>
       <button className={styles.ProjectsButtonno}>
-    <Link href={path}
+    <Link href='/'
        >
         {buttonText}
       
