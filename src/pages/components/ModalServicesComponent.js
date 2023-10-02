@@ -1,7 +1,7 @@
 import ServicesGridImage from "./ServicesGridImage"
 import { servicesImageData } from "../../../public/servicesImageData"
 import ServicesGridContainer from "./ServicesGridContainer"
-
+import styles from '../../styles/ModalServicesComponent.module.css'
 import Image from "next/image"
 
 
