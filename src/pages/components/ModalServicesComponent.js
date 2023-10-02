@@ -9,6 +9,7 @@ const ModalServicesComponent =({url, name, id, alt})=>{
 
     return(
         <div>
+            {/*
           <div className={styles.modalOpen}>
       <h1>{title}</h1>
       <Image 
@@ -21,7 +22,7 @@ const ModalServicesComponent =({url, name, id, alt})=>{
      /> 
      <p>{text}</p>
     </div>
-
+    */}
         </div>
     )
 }
