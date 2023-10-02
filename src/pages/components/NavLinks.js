@@ -63,10 +63,10 @@ return styles.linksDesktop
     <Link href="../components/AboutUsPage">
       About Us
     </Link>
-    <Link href="/">
+    <Link href="../">
       Projects
     </Link>
-    <Link href="'../../components/ContactUsPage">
+    <Link href="../components/ContactPage">
       Contact Us
     </Link>
     <Link href='../components/ServicesPage'>Services

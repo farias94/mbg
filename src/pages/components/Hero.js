@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Heroimg from '../../../public/HeroImage.png'
+import Heroimg from '../../../public/HeroImage2.webp'
 import styles from '../../styles/Hero.module.css'
 function Hero (){
 
