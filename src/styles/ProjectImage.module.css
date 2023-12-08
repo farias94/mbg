@@ -1,17 +1,15 @@
 .container {
   color: rgb(241, 234, 234);
 display: flex;  
+padding-right: 2rem;
+width: fit-content;
 flex-direction: column;
-    padding: 2em;
-
+padding-bottom: 5rem;
   }
   
   .img {
     border-radius: 3%;
-    width: min(90vw,55%);
-    height: auto;
-    box-shadow: 2px 1px 1px grey;
-
+    width: clamp(20rem, 50vw, 70%) ;   box-shadow: 2px 1px 1px grey;
     object-fit: contain;
     margin-bottom: 10px;
     height: auto;

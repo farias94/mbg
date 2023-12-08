@@ -9,10 +9,12 @@ const ButtonStyle='ProjectsButton'
 
 const Projects = () => {
   return (
+  <div className={styles.masterContainer}>
     <div className={styles.containerProj}>
-      <h1 className={styles.title}>Our Services</h1>
+      <h1 className={styles.title}>OUR SERVICES</h1>
   <ProjectImageContainer {...projectData}/>
   <Button  ButtonStyle ='testimonialSection'path ='../../components/ProjectsPage' buttonText='View Projects'/>
+    </div>
     </div>
   );
 };

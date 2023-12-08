@@ -13,7 +13,7 @@ const TestimonialsContainer = () =>{
         text={text} />))}*/
 return(
     <div>
-<h1 className={styles.testimonialsHeader}> Testimonials</h1>
+<h1 className={styles.testimonialsHeader}> TESTIMONIALS</h1>
 
 {console.log(testimonialData)}
 

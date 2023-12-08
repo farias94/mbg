@@ -1,6 +1,6 @@
 import react from "react";
 import Image from "next/image";
-import MarcusLogo from '../../../public/MarcusLogo.svg'
+import MarcusLogo from '../../../public/mbglogo.svg'
 import Links from '../components/Links'
 import styles from '../../styles/Footer.module.css'
 const Footer =(props)=> {

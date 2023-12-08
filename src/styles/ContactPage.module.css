@@ -1,0 +1,13 @@
+.HeaderContainer{
+    background-image: url('../../public/contactpageheaderlarge.webp');
+    width: 100vw;
+    height: 10vw;
+    margin: 0px;
+    padding: 0px;
+ background-repeat: no-repeat;
+    background-size: cover;
+}
+.ContactContainer{
+    padding: 5em;
+    background-color: #FFBE00;
+}
