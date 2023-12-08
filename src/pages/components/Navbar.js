@@ -27,7 +27,7 @@ function Navbar() {
       <div className={styles.logoContainer}>
       <div className={styles.logo}>
       <Link className={styles.marcus} href='/'> <Image classname={styles.marcusLogo} src={MarcusLogo} alt="Logo" /></Link>
-         <h1 className={styles.logoTitle}> <span className={styles.logoTitleMarcus}>Marcus</span><span className={styles.logoTitleUnder}>Building Group</span></h1> </div>
+         <h1 className={styles.logoTitle}> <span className={styles.logoTitleMarcus}>MARCUS</span><span className={styles.logoTitleUnder}>Building Group</span></h1> </div>
 
       </div>
 

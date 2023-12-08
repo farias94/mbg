@@ -1,9 +1,9 @@
 .Hero{
-min-height: 70vh;   
+min-height: 50rem;   
  background-origin: border-box;
     background-size: cover;
     background-position: absolute, relative;
-    width: 100vw;
+    width: 100%;
     background-repeat: no-repeat;
     font-family: 'Work-Sans';
   background-image: url('../../public/HeroImage2.webp');

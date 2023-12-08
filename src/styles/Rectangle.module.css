@@ -5,7 +5,7 @@
     text-align: center;
     justify-content: center;
     align-content: center;
-    margin-top: clamp(-1em,-2vw,-5em);
+    margin-top: clamp(-5em,-2vw,-50%);
     padding-top: 0;
 
     padding: calc(10px + 1.5rem);
