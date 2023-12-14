@@ -6,9 +6,9 @@ function Hero (){
 
     return(
 <div className={styles.Hero}>
-<div>
+<div >
 <h1 className={styles.HeroText}>Building <br/>Futures Together</h1>
-
+<h3>Contracting company for over 20 years, serbing northern New Jersey</h3>
 </div>
 
 </div>
