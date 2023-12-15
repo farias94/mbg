@@ -40,14 +40,17 @@ const NavLinks =( {NavClass})=>{
   );*/
   
   
-/*function menuClassName (IsMobile, menuOpen){
+function menuClassName (IsMobile, menuOpen){
 if (IsMobile){
   return menuOpen ? styles.linksMobileOpen : styles.linksMobileClosed
+
 }
 else 
+
 return styles.linksDesktop
+
 }
-*/
+
  
   return(
 <div> 
@@ -56,11 +59,10 @@ return styles.linksDesktop
     <div className={NavClass}>
 
     
-
+    <Link href='../'>Home</Link>
     <Link href="../components/AboutUsPage">
       About Us
     </Link>
-    <p>{toString({NavClass})}</p>
     <Link href="../">
       Projects
     </Link>

@@ -42,7 +42,7 @@ function Navbar() {
 
   function menuClassName (IsMobile, menuOpen){
     if (IsMobile){
-      return menuOpen ? `${styles['linksMobileOpen']}` : `${styles['linksMobileClosed']}`
+      return menuOpen ? styles.linksMobileOpen : styles.linksMobileClosed;
     }
     else 
     return styles.linksDesktop
@@ -52,18 +52,16 @@ function Navbar() {
     <div className={styles.nav}>
       <div className={styles.logoContainer}>
       <div className={styles.logo}>
-      <Link className={styles.marcus} href='/'> <Image onClick={handleClick} classname={styles.marcusLogo} src={MarcusLogo} alt="Logo" /></Link>
+     <Image   onClick={handleClick} className={styles.marcusLogo} src={MarcusLogo} alt="Logo" />
          <h1 className={styles.logoTitle}> <span className={styles.logoTitleMarcus}>MARCUS</span><span className={styles.logoTitleUnder}>Building Group</span></h1> </div>
 
       </div>
 
-      <div className={styles.navLinkContainer}>
 
 
 
- <NavLinks NavClass = {menuClassName}/>
+ <NavLinks NavClass = {menuClassName(IsMobile, menuOpen)}/>
   
- </div>       
     
   
     </div>
