@@ -1,10 +1,11 @@
 import react, { use } from "react";
 import Link from "next/link";
+import Navbar from "./Navbar";
 import styles from '../../styles/NavLinks.module.css'
 import { useState, useEffect } from "react";
-const NavLinks =()=>{
+const NavLinks =( {NavClass})=>{
 
-  const [IsMobile, setIsMobile] = useState(false)
+  /*const [IsMobile, setIsMobile] = useState(false)
   const [menuOpen, menuClosed]= useState(false)
 
   const handleScroll=()=>{
@@ -21,7 +22,7 @@ const NavLinks =()=>{
   const handleClick = () =>{
 
     menuClosed(!menuOpen)
-    console.log('hello')
+    console.log('fuck' ,'fuck')
   }
     
   useEffect (()=>{
@@ -36,30 +37,29 @@ const NavLinks =()=>{
     return()=> window.removeEventListener('resize', handleResize)
   },[]
 
-  );
+  );*/
   
   
 function menuClassName (IsMobile, menuOpen){
 if (IsMobile){
   return menuOpen ? styles.linksMobileOpen : styles.linksMobileClosed
+
 }
 else 
+
 return styles.linksDesktop
+
 }
 
  
   return(
 <div> 
-{IsMobile && <div>
-    
-  
-<p className={styles.menuButtonMobile}onClick={handleClick}>Menu</p>
-    </div>}
 
-    <div className={menuClassName(IsMobile, menuOpen)}>
+
+    <div className={NavClass}>
 
     
-
+    <Link href='../'>Home</Link>
     <Link href="../components/AboutUsPage">
       About Us
     </Link>

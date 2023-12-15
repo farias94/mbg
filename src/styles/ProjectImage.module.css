@@ -9,7 +9,7 @@ padding-bottom: 5rem;
   
   .img {
     border-radius: 3%;
-    width: clamp(20rem, 50vw, 70%) ;   box-shadow: 2px 1px 1px grey;
+    width: clamp(20rem - 100px, 40vw, 70%) ;   box-shadow: 2px 1px 1px grey;
     object-fit: contain;
     margin-bottom: 10px;
     height: auto;
