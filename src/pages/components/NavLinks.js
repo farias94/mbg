@@ -3,6 +3,8 @@ import Link from "next/link";
 import Navbar from "./Navbar";
 import styles from '../../styles/NavLinks.module.css'
 import { useState, useEffect } from "react";
+import Image from "next/image";
+import DropDownIcon from '../../../public/dropdownicon.svg';
 const NavLinks =( {NavClass})=>{
 
   /*const [IsMobile, setIsMobile] = useState(false)
@@ -54,7 +56,6 @@ return styles.linksDesktop
  
   return(
 <div> 
-
 
     <div className={NavClass}>
 

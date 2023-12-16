@@ -38,8 +38,11 @@ const NavHome =()=>{
 
         
         <Link onClick ={handleClick} className={styles.Home} href="/">
+
            Home
          </Link >
+         <Image className={styles.DropDown}alt='' src={DropDownIcon}></Image>
+
         <NavLinks navClosed = {navClosed} />
          </div>
     )
