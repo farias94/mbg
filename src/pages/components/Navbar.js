@@ -4,6 +4,7 @@ import MarcusLogo from '../../../public/mbglogo.svg'
 import Image from 'next/image';
 import { use, useEffect, useState } from 'react';
 import NavLinks from './NavLinks';
+import DropDown from '../../../public/dropdownicon.svg';
 function Navbar() {
 
 
@@ -52,6 +53,7 @@ function Navbar() {
     <div className={styles.nav}>
       <div className={styles.logoContainer}>
       <div className={styles.logo}>
+
     <div className={styles.logoImage}> <Image onClick={handleClick} className={styles.marcusLogo} src={MarcusLogo} alt="Logo" /></div>
          <h1 className={styles.logoTitle}> <span className={styles.logoTitleMarcus}>MARCUS</span><span className={styles.logoTitleUnder}>Building Group</span></h1> </div>
 
@@ -61,7 +63,11 @@ function Navbar() {
 
 
  <NavLinks NavClass = {menuClassName(IsMobile, menuOpen)}/>
-  
+ {IsMobile && 
+ <div className={styles.ArrowContainer}> 
+         <Image className={menuOpen ? styles.dropDownOpen : styles.dropDownClosed}alt='' src={DropDown} onClick={handleClick} ></Image>
+       </div>
+        }
     
   
     </div>
