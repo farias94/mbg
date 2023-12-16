@@ -41,7 +41,6 @@ const NavHome =()=>{
 
            Home
          </Link >
-         <Image className={styles.DropDown}alt='' src={DropDownIcon}></Image>
 
         <NavLinks navClosed = {navClosed} />
          </div>
