@@ -86,7 +86,12 @@ color: white;
       color: white;
     }
 
- 
+.marcusLogo{
+  filter: invert(100%);
+}
+ .logoImage{
+  padding: 1rem
+ }
   
   .logoTitle {
     width: auto;
@@ -104,41 +109,40 @@ color: white;
 
 
  .linksMobileOpen {
-  align-content: center;
 text-decoration: none;
 display: flex;
-height: 100px;
+height: auto;
+padding: 1rem 1rem 1rem 4rem;
 visibility: visible;
 flex-direction: column;
 transition: all .4s;
 position: relative;
-color: white;
+background-color: #d1a625;
 list-style: none;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 text-decoration-style: none;
-background-color: rgba(128, 128, 128, 0.3);
 
 }
 .linksMobileOpen a{
 visibility: none;
 opacity: 100; 
-padding-top: 1em;
-padding-left: 5em;
-
-padding-bottom: .5em;
-font-size: .8rem;
+padding-left: 4rem;
+padding-top: .5rem;
+font-size: 1rem;
 color: rgb(35, 35, 35);
-background-color: rgb(223, 220, 220);
-background-image: linear-gradient(35ß);
+height: 100%;
 text-decoration: none;
-color: rgb(75, 74, 74);
+color: rgb(26, 25, 25);
 transition-property: all;
 transition-duration: .5s;
-height: 100%;
 }
 
 
+.linksMobileOpen a:hover{
+  box-shadow: #686480;
+  text-decoration: underline 2px;
 
+}
 
 .linksMobileClosed a{
 position: absolute;

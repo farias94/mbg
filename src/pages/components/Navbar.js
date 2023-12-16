@@ -52,7 +52,7 @@ function Navbar() {
     <div className={styles.nav}>
       <div className={styles.logoContainer}>
       <div className={styles.logo}>
-     <Image   onClick={handleClick} className={styles.marcusLogo} src={MarcusLogo} alt="Logo" />
+    <div className={styles.logoImage}> <Image onClick={handleClick} className={styles.marcusLogo} src={MarcusLogo} alt="Logo" /></div>
          <h1 className={styles.logoTitle}> <span className={styles.logoTitleMarcus}>MARCUS</span><span className={styles.logoTitleUnder}>Building Group</span></h1> </div>
 
       </div>
