@@ -11,7 +11,7 @@ const ServicesPage =()=>{
     <Navbar/>
     <div className={styles.container}>
         <div className={styles.text}>
-    <h1>Services</h1>
+    <h1>SERVICES</h1>
     <p>We combine years of experience 
         with connections to local 
         professionals to make your dream homes become 

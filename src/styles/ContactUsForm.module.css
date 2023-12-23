@@ -1,6 +1,10 @@
 .form1{
     background-color: blue;
 }
+.form1 label{
+    display: flex;
+    flex-direction: column;
+}
 .inputForm1{
     background-color: antiquewhite;
 }
@@ -13,7 +17,16 @@
 
 .largeInput{
     padding-top: 1rem;
-    width: 80%;
-    height: 200px;
+    width: calc(30vw + 150px);
+    height: calc(10vw + 50px);
     padding-bottom: 20px;
+}
+.submitButton{
+    background-color: var(--primary-color);
+    width: 10em;
+    border: none;
+    border-radius: 5%;
+    font-size: 1rem;
+    padding: 1rem;
+    color: white;
 }

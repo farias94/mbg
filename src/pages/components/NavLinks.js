@@ -60,7 +60,7 @@ return styles.linksDesktop
     <div className={NavClass}>
 
     
-    <Link href='../'>Home</Link>
+    <Link  className={styles.HomeNav}href='../'>Home</Link>
     <Link href="../components/AboutUsPage">
       About Us
     </Link>

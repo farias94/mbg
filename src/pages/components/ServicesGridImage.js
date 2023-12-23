@@ -41,8 +41,8 @@ const openModal = (id)=>{
     <div className= {styles.imageContainer} key={id + 1}>
    <Image 
    className= {styles.images}
-    width={800}
-     height={800} 
+    width={500}
+     height={500} 
      src={url} 
      alt={alt} 
      key={id}

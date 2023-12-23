@@ -8,16 +8,17 @@ const ContactUsForm =()=>{
 <label for='First Name'> First Name:</label>
     <input type='text'>
 
-
     </input>
+    </form>
+    <form>
     <label for='Last Name'> Last Name:</label>
 
     <input type = 'text'></input>
-</form>
+    </form>
 <form>
-
     <input className={styles.largeInput} type='text'></input>
 </form>
+<button class={styles.submitButton}> Submit</button>
 </div>
     )
 };
