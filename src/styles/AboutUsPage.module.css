@@ -1,8 +1,11 @@
 .text{
-font-size: (1rem, 3vw,4rem)}
+font-size: (1rem, 3vw,4rem)
+}
+
   .container{
     color: white;
-    padding: 2rem
+    background-color:   rgb(24, 25, 24);
+    padding: 2rem;
 
   }
   .container h1{color: rgb(232, 232, 230);}
@@ -28,10 +31,8 @@ font-size: (1rem, 3vw,4rem)}
   }
 
   .AboutUsHomePage{
-    background-color: rgb(36, 30, 30);
+    color: white;
   }
 
   .AboutUsHomePage h1{
-    margin-left: 30%;
-    color: white;
   }

@@ -10,9 +10,10 @@ import ContactSection from "./ContactSection";
     return(
         <div className={styles.AboutUsHomePage}>
 <Navbar/>
-<h1>About Us</h1>
 
 <div className={styles.container}>
+<h1>About Us</h1>
+
     <div className={styles.textContainer}>
    
     <p className={styles.text}>R&S and staff commits to delivering a quality service, but by also ensuring that you, the homeowner, are included throughout the whole process. We personalize each estimate appointment by engaging differently with each one of our clients and working closely to determine the best solution for you and your home.</p>

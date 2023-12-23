@@ -2,10 +2,11 @@
     padding-bottom: 5rem;
     display: flex;
     max-width: 100%;
+    background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode:multiply;
-    background-image: url('../../public/texture7.svg');
-    background-color: #ecc013;
+    background-image: url('../../public/texture8.svg');
+    background-color: hsl(48, 85%, 50%);
     color: rgb(35, 35, 35);
     
     flex-direction: column;
@@ -17,7 +18,7 @@ align-items: center;}
 .explainer h2{
 
     font-weight: bold;
-    font-size: clamp(12px,1rem + 1vh, 1rem);
+    font-size: clamp(1rem ,1rem + 1vh, 1rem);
     padding-left: 4rem;
     padding-left: 4rem;
 
@@ -26,7 +27,7 @@ align-items: center;}
 .Serving p{
     font-weight:normal;
     padding-top: 4rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding-left: 4rem;
     padding-left: 4rem;   
 

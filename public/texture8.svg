@@ -1,65 +1,70 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 557.5252 557.5252">
-  <defs>
-    <style>
-      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        fill: none;
-      }
-
-      .cls-7 {
-        clip-path: url(#clippath);
-      }
-
-      .cls-2 {
-        stroke-width: 9.4px;
-      }
-
-      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
-        stroke: #231f20;
-        stroke-miterlimit: 10;
-      }
-
-      .cls-3 {
-        stroke-width: .7px;
-      }
-
-      .cls-4 {
-        stroke-width: 7.7px;
-      }
-
-      .cls-5 {
-        stroke-width: 5.2px;
-      }
-
-      .cls-6 {
-        stroke-width: 3.3px;
-      }
-    </style>
-    <clipPath id="clippath">
-      <rect class="cls-1" width="557.5252" height="557.5252"/>
-    </clipPath>
-  </defs>
-  <g id="Layer_1-2" data-name="Layer 1">
-    <g class="cls-7">
-      <g id="Layer_1-2" data-name="Layer 1-2">
-        <polyline class="cls-3" points="219.3661 153.9565 219.3661 79.8456 108.4798 0 -2.4065 79.8456 -2.4065 153.9565"/>
-        <polyline class="cls-3" points="441.1387 153.9565 441.1387 79.8456 330.2524 0 219.3661 79.8456 219.3661 153.9565"/>
-      </g>
-      <g id="Layer_1-2-2" data-name="Layer 1-2">
-        <polyline class="cls-2" points="662.9112 153.9565 662.9112 79.8456 552.025 0 441.1387 79.8456 441.1387 153.9565"/>
-      </g>
-      <g id="Layer_1-2-3" data-name="Layer 1-2">
-        <polyline class="cls-5" points="102.9796 310.9082 102.9796 236.7973 -7.9067 156.9517 -118.793 236.7973 -118.793 310.9082"/>
-        <polyline class="cls-5" points="324.7522 310.9082 324.7522 236.7973 213.8659 156.9517 102.9796 236.7973 102.9796 310.9082"/>
-      </g>
-      <g id="Layer_1-2-4" data-name="Layer 1-2">
-        <polyline class="cls-4" points="546.5247 310.9082 546.5247 236.7973 435.6385 156.9517 324.7522 236.7973 324.7522 310.9082"/>
-        <polyline class="cls-4" points="768.2973 310.9082 768.2973 236.7973 657.411 156.9517 546.5247 236.7973 546.5247 310.9082"/>
-      </g>
-      <g id="Layer_1-2-5" data-name="Layer 1-2">
-        <polyline class="cls-6" points="224.8663 413.4997 224.8663 339.3888 113.98 259.5432 3.0938 339.3888 3.0938 413.4997"/>
-        <polyline class="cls-6" points="446.6389 413.4997 446.6389 339.3888 335.7526 259.5432 224.8663 339.3888 224.8663 413.4997"/>
-      </g>
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.8.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2_00000095314649218354393940000013913074695944577682_"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 609.8 327.6"
+	 style="enable-background:new 0 0 609.8 327.6;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000126313345457909124810000010093861881637274010_);}
+	.st1{fill:none;stroke:#231F20;stroke-width:5.000000e-02;stroke-miterlimit:10;}
+</style>
+<g id="Layer_1-2_00000105428307555970830070000012857013463704375202_">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" y="4.2" width="609.8" height="327.6"/>
+		</defs>
+		<clipPath id="SVGID_00000177486639531269632690000007656897952822088849_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000177486639531269632690000007656897952822088849_);">
+			<g id="Layer_1-2">
+				<polyline class="st1" points="166.2,209.8 166.2,190.9 98.4,141.6 30.7,190.9 30.7,209.8 				"/>
+				<polyline class="st1" points="301.7,208.1 301.7,190.9 233.9,141.6 166.2,190.9 166.2,209.8 				"/>
+			</g>
+			<g id="Layer_1-2-2">
+				<polyline class="st1" points="443.9,200.5 443.9,189.1 369.4,141.6 301.7,190.9 301.7,209.8 				"/>
+				<polyline class="st1" points="579.4,200.5 579.4,188 504.9,141.6 443.9,189.1 443.9,200.5 				"/>
+			</g>
+			<g id="Layer_1-2-3">
+				<polyline class="st1" points="105.1,293.7 105.1,254.1 37.4,204.9 -30.4,254.1 -30.4,299.8 				"/>
+			</g>
+			<g id="Layer_1-2-4">
+				<polyline class="st1" points="240.6,293.7 240.6,254.1 172.9,204.9 105.1,254.1 105.1,293.7 				"/>
+				<polyline class="st1" points="376.2,293.7 376.2,249.7 308.4,204.9 240.6,254.1 240.6,293.7 				"/>
+			</g>
+			<g id="Layer_1-2-5">
+				<polyline class="st1" points="37.4,388.6 37.4,342.9 -30.4,293.7 -98.1,342.9 -98.1,388.6 				"/>
+				<polyline class="st1" points="172.9,388.6 172.9,342.9 105.1,293.7 37.4,342.9 37.4,388.6 				"/>
+			</g>
+			<g id="Layer_1-2-6">
+				<polyline class="st1" points="308.4,388.6 308.4,342.9 240.6,293.7 172.9,342.9 172.9,388.6 				"/>
+				<polyline class="st1" points="443.9,388.6 443.9,342.9 376.2,293.7 308.4,342.9 308.4,388.6 				"/>
+				<polyline class="st1" points="579.4,388.6 579.4,342.9 511.7,293.7 443.9,342.9 443.9,388.6 				"/>
+			</g>
+			<g id="Layer_1-2-7">
+				<polyline class="st1" points="511.7,293.7 511.7,249.7 443.9,200.5 376.2,249.7 376.2,293.7 				"/>
+				<polyline class="st1" points="647.2,295.4 647.2,249.7 579.4,200.5 511.7,249.7 511.7,293.7 				"/>
+			</g>
+			<g id="Layer_1-2-8">
+				<polyline class="st1" points="282.3,57.8 282.3,15.1 210.9,-37 135,12.2 135,57.9 				"/>
+				<polyline class="st1" points="417.8,57.8 417.8,14.7 348.8,-37 282.3,15.1 282.3,57.8 				"/>
+			</g>
+			<g id="Layer_1-2-9">
+				<polyline class="st1" points="553.3,57.8 553.3,18.2 485.5,-31 417.8,14.7 417.8,57.8 				"/>
+				<polyline class="st1" points="688.8,63.9 688.8,18.2 621,-31 553.3,18.2 553.3,57.8 				"/>
+			</g>
+			<g id="Layer_1-2-10">
+				<polyline class="st1" points="350,152.7 350,107 282.3,57.8 214.5,107 214.5,152.7 				"/>
+				<polyline class="st1" points="485.5,152.7 485.5,107 417.8,57.8 350,107 350,155.7 				"/>
+				<polyline class="st1" points="621,152.7 621,107 553.3,57.8 485.5,107 485.5,155.7 				"/>
+			</g>
+			<g id="Layer_1-2-11">
+				<polyline class="st1" points="67.3,152.7 67.3,107 -0.5,57.8 -68.2,107 -68.2,152.7 				"/>
+				<polyline class="st1" points="214.5,155.7 214.5,107 135,57.8 67.3,107 67.3,164.3 				"/>
+			</g>
+			<g id="Layer_1-2-12">
+				<polyline class="st1" points="135,57.9 135,12.2 67.3,-37 -0.5,12.2 -0.5,57.9 				"/>
+			</g>
+		</g>
+	</g>
+</g>
 </svg>

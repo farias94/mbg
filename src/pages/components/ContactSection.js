@@ -5,7 +5,7 @@ const ContactSection = ()=>{
 
     return(
     <div className={styles.contactUsSectionContainer}>
-        <h1>Lets get to Work</h1>
+        <h1>LETS GET TO WORK</h1>
         <p>Get in touch with us to make your dream home a reality!</p>
 
         <ContactUsForm/>

@@ -16,7 +16,6 @@ align-content: flex-end;
     
     font-family: 'Work-Sans';
    margin: 0px;
-  padding-left: clamp(1rem, 3vw + 5px, 6rem);
   padding-top: 10rem;
   color: rgb(255, 255, 255);
   line-break: auto;
@@ -24,9 +23,12 @@ align-content: flex-end;
 font-size: clamp(3rem , 6vw + 10px, 12rem); 
 
 }
-
- .HeroText h1{
-
+.HeroTextContainer{
+  padding: 10vw;
+}
+ 
+ .Hero h3{
+  color: white;
  }
 
  @media (width<900px){

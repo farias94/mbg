@@ -2,7 +2,7 @@ export const servicesImageData=[
 
     {
         title: 'Framing',
-        url: '/Framing.jpg',
+        url: '/Framing.webp',
         id:'1',
         alt: 'kitchenImage',
         text:'Whether youre looking to renovate your existing home or build a new one from scratch,'+
@@ -12,7 +12,7 @@ export const servicesImageData=[
     },
     {
         title: 'Electrical',
-        url: '/Electrical.jpg',
+        url: '/Electrical.webp',
         id:'2',
         alt: 'electricalImage',
         text: 'whether youre looking to renovate your existing home or build a new one from scratch,'+
@@ -22,7 +22,7 @@ export const servicesImageData=[
     },
     {
         title: 'Flooring',
-        url: '/Flooring.jpg',
+        url: '/Flooring.webp',
         id: '3',
         alt: 'flooringImage'
     },

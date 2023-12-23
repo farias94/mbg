@@ -33,6 +33,7 @@ margin: 0px;
       flex-wrap: wrap;
 padding: 0px;
 margin:0px;
+align-items: center;
 flex-direction: row;
     }
 
@@ -40,6 +41,7 @@ flex-direction: row;
       .nav{
         display: flex;
         flex-direction: column;
+        align-items: normal;
       }
       
       .logoContainer{
@@ -200,21 +202,28 @@ background-color: orange;
 .linksDesktop{
 width: 100%;
 text-decoration: none;
-color: white;
 display: flex;
+justify-content: space-around;
 justify-self: flex-end;  
 flex-direction: row;
+padding-right: 2rem;
 }
+
 .linksDesktop a {
-font-weight: lighter;
+  color: black;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 font-size: 1rem;
-color: black;
 flex-wrap: wrap;
-padding-right: 1rem;
+align-items: center;
+padding-left: clamp(5px, 1vw, 1rem);
+padding-right: clamp(5px, 1vw, 1rem);
 padding-top: 1.6rem;
+
 padding-bottom: 1.6rem;
 text-decoration: none;
+}
+.linksDesktop a > .HomeNav{
+  color: #d1a625;
 }
 
 .linksDesktop a:hover{
@@ -236,7 +245,7 @@ text-decoration: underline 2px solid black;
   .dropDownOpen{
     position: absolute;
     transition: all .2s;
-    transform: rotate(180deg);
+    transform: rotate(180deg  );
     width: 2em;
     left: 50%;
      }
@@ -245,4 +254,8 @@ text-decoration: underline 2px solid black;
 .ArrowContainer{
   width: 0px;
   margin: -10px;
+}
+.HomeNav {
+  color: #d1a625;
+  font-weight: bolder;
 }
