@@ -17,7 +17,7 @@
 
 .largeInput{
     padding-top: 1rem;
-    width: calc(30vw + 150px);
+    width: calc(30vw + 100px);
     height: calc(10vw + 50px);
     padding-bottom: 20px;
 }
